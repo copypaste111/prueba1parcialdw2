@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+
+
+:root{
+	--color-general:#888585;
+	--fondo-header:#4e4e4e;
+	--fondo-footer:#383737;
+	--color-titulos: #3c3838;
+	--color-azul: #41c1fe;
+	--fondo-gris: #f3f3f3;
+
+}
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+}
+
+
+
+
+header{
+	background-color: var(--fondo-header);
+
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+}
+
+
+
+
+#hero{
+	background-image: url("../img/header_bg.jpg");
+	background-size: cover;
+	padding: 150px 0;
+}
+
+#hero h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	color: #fff;
+	font-weight: 800;
+	
+}
+
+#welcome{
+	padding: 35px 0;
+}
+
+#welcome h2{
+	font-family: "Oswald", sans-serif;
+	font-weight: 700px;
+	text-align: center;
+	color: var(--color-titulos);
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+
+#welcome h3{
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	
+	
+}
+
+
+
+#welcome h5{
+	font-family: "Oswald", sans-serif;
+	color: var(--color-titulos);
+	font-size: 20px;
+}
+
+#welcome h4{
+	font-family: "Oswald", sans-serif;
+	font-size: 25px;
+	color: #B9B9B9;
+}
+
+#welcome .btn{
+	text-align: center;
+	color: #fff;
+	border: 90;
+	padding: 15px 15px;
+	text-transform: uppercase;
+	font-weight: 900px;
+	font-family: "Oswald", sans-serif;
+}
+
+#history h2{
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+	font-family: "Oswald", sans-serif;
+	margin-bottom: 100px;
+}
+
+#history h3{
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+
+
+#history img{
+	background-position: right;	 
+
+}
+
+
+#gallery{
+	background-color: var(--fondo-gris);
+	padding: 60px 0;
+	
+}
+
+#gallery h2{
+	font-family: "Oswald", sans-serif;
+	color: var(--color-titulos);
+	text-transform: uppercase;
+	text-align: start;
+	
+}
+
+#gallery img{
+	width: 200px;
+}
+
+
+
+
+
+#socials{
+	background-color: var(--fondo-footer);
+	color: #fff;
+	padding: 90px 0;
+	
+}
+
+#socials i{
+	color: #fff;
+	padding-right: 10px;
+}
+
+.circle{
+	color: #fff;
+	border-radius: 100%;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	padding-top: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
